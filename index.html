@@ -1,46 +1,84 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style>
-body{
-	background-image: url("racing.gif");
-    background-position: center;
-    background-size: cover;
-}
-#myCanvas
-{
-    margin-top: 30px;
-	border-width:10px;
-	background-color: white; 
-	border-style:ridge;
-}
-
-h1,h4
-{
-	color: white !important;
-}
-</style>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<title>Car Racing</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows The Final</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body onload="add()">
 
-<center>
-<h1>Car Racing</h1>
-<h1>Game Status : <span id="game_status"></span></h1>
-	<canvas id="myCanvas" width="800" height="600">
-	</canvas>
-<h4>
-	<b class="text-danger">NOTE : </b> IF THE CARS ARE NOT VISIBLE PRESS ANY ARROW KEY
-</h4>
+<body>
 
-</center>
+    <div class="desktopIcons">
+
+        <div class="icon" id="recyclebin">
+            <img src="recyclebinicon.png" alt="">
+            <span>Recycle Bin</span>
+        </div>
+    
+        <div class="icon" id="edge">
+            <img src="edgeicon.png" alt="">
+            
+            
+            <span>Edge</span>
+        </div>
+
+        <div class="icon">
+            <img src="thispc.png" alt="">
+            <span>This PC</span>
+        </div>
+
+        <div class="icon" id="vlc">
+            <img src="vlc.png" alt="">
+            <span>VLC Media Player</span>
+        </div>
+        <div class="icon" Id="chrome">
+            <img src="chromeicon.png" alt="">
+            <span>Chrome</span>
+        </div>
+
+    </div>
+
+
+    <div>
+
+        <div class="taskbar">
+            <img id="startbutton" src="win.PNG" alt="">
+            <img id="searchbutton" src="searchIcon.PNG" alt="">
+            <img id="#" src="src/icons (4).PNG" alt="">
+            <img id="widgetbutton" src="widgetsIcon.PNG" alt="">
+            <img id="#" src="icons (6).PNG" alt="">
+            <img id="#" src="icons (7).PNG" alt="">
+            <img id="fileExplorer" src="fileExplorerIcon.png" alt="">
+            <img id="storebutton" src="storeIcon.PNG" alt="">
+            <img id="righttaskbar" src="taskbarright.PNG" alt="">
+        </div>
+
+        <div class="startmenu">
+            <img id="menu" src="startmenu.PNG" alt="">
+        </div>
+
+        <div class="searchmenu">
+            <img id="searchBox" src="search.jpg" alt="">
+        </div>
+
+        <div class="widgetMenu">
+            <img id="widgetBox" src="widgets.jpg" alt="">
+        </div>
+
+        <div class="fileMenu">
+            <img id="filemanager" src="fileExplorer.png" alt="">
+        </div>
+
+        <div class="microsoftstore">
+            <img id="store" src="store.jpg" alt="">
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
 </body>
-
-<script src="C90_Solution.js" type="text/javascript"></script>
 
 </html>
